@@ -23,14 +23,14 @@ php artisan key:generate
 php artisan migrate
 ```
 
-# Serve the Application
-
-```
-php artisan serve --port=8080
-```
-
 # Image upload publicly accessible
 
 ```
 php artisan storage:link
+```
+
+# Serve the Application
+
+```
+php artisan serve --port=8080
 ```
